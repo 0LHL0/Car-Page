@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-wrap: wrap;
+
+    
+    
+}
+.container {
+    width: 950px;
+    height: 400px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+i {
+    font-size: 35px;
+    opacity: 50%;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: left;
+}
+
+
+p {
+    text-align:left;
+}
+
+.container .sedan {
+    background-color: orange;
+    flex-direction: column;
+    padding: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+} 
+
+.container .suvs {
+    background-color: rgb(0, 130, 139);
+    flex-direction: column;
+    padding: 40px;
+    color: white;
+}
+
+.container .luxury {
+    background-color: rgb(0, 49, 37);
+    flex-direction: column;
+    padding: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+}
+
+.buttonsedan {
+    display: flex;
+    background: white;
+    color:orange;
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.buttonsuv {
+    display: flex;
+    background: white;
+    color:rgb(0, 130, 139);
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.buttonluxury {
+    display: flex;
+    background: white;
+    color:rgb(0, 49, 37);
+    padding: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
