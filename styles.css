@@ -6,57 +6,38 @@ body {
     background-color: black;
     color: white;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 40% ;
 
-
-    
-    
 }
 .container {
-    width: 200px;
-    height: 400px;
-    padding: 40px;
+    height: auto;
+    padding: 2.5em 4em 2.5em 4em;
 }
 
-i {
+/* i {
     font-size: 35px;
     opacity: 50%;
-}
-
-h1 {
-    font-size: 30px;
-    text-align: left;
-}
-
-
-p {
-    text-align:left;
-}
+} */
 
 .container p{
     height: 200px;
-    margin: 2em 0 5em;
+    width: 200px;
+    margin: 2em 0 3em;
 }
 
-.container.sedan {
+.sedan {
     background-color: orange;
-    flex-direction: column;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
     
 } 
 
-.container.suvs {
+.suvs {
     background-color: rgb(0, 130, 139);
-    flex-direction: column;
     
 }
 
-.container.luxury {
+.luxury {
     background-color: rgb(0, 49, 37);
-    flex-direction: column;
-   
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
 }
 .button {
     background: white;
@@ -69,6 +50,7 @@ p {
 
 .buttonsedan {
     color:orange;
+    
     
 }
 .buttonsuv {
@@ -83,9 +65,15 @@ p {
    
 }
  
-@media only screen and (max-width: 850px){
+@media only screen and (max-width: 950px){
     body{
         display: unset;
+    }
+
+    .container {
+    margin-left: 20px;
+    margin-right: 20px;
+
     }
 
 } 
