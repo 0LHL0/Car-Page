@@ -4,21 +4,19 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
+    color: white;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    flex-wrap: wrap;
+
 
     
     
 }
 .container {
-    width: 950px;
+    width: 200px;
     height: 400px;
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-
-    
+    padding: 40px;
 }
+
 i {
     font-size: 35px;
     opacity: 50%;
@@ -34,62 +32,66 @@ p {
     text-align:left;
 }
 
-.container .sedan {
-    background-color: orange;
-    flex-direction: column;
-    padding: 40px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    color: white;
-} 
-
-.container .suvs {
-    background-color: rgb(0, 130, 139);
-    flex-direction: column;
-    padding: 40px;
-    color: white;
+.container p{
+    height: 200px;
+    margin: 2em 0 5em;
 }
 
-.container .luxury {
+.container.sedan {
+    background-color: orange;
+    flex-direction: column;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+} 
+
+.container.suvs {
+    background-color: rgb(0, 130, 139);
+    flex-direction: column;
+    
+}
+
+.container.luxury {
     background-color: rgb(0, 49, 37);
     flex-direction: column;
-    padding: 40px;
+   
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    color: white;
+}
+.button {
+    background: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .buttonsedan {
-    display: flex;
-    background: white;
     color:orange;
-    padding: 5px;
-    border-radius: 10px;
-    justify-content: center;
-    align-content: center;
-    text-decoration: none;
-    font-weight: bold;
+    
 }
 .buttonsuv {
-    display: flex;
-    background: white;
+    
     color:rgb(0, 130, 139);
-    padding: 5px;
-    border-radius: 10px;
-    justify-content: center;
-    align-content: center;
-    text-decoration: none;
-    font-weight: bold;
+    
 }
 
 .buttonluxury {
-    display: flex;
-    background: white;
+   
     color:rgb(0, 49, 37);
-    padding: 5px;
-    border-radius: 10px;
-    justify-content: center;
-    align-content: center;
-    text-decoration: none;
-    font-weight: bold;
+   
 }
+ 
+@media only screen and (max-width: 850px){
+    body{
+        display: unset;
+    }
+
+} 
+
+
+    
+    
+
+    
