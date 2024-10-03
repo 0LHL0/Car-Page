@@ -7,51 +7,59 @@ body {
     color: white;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0 40% ;
-
+    font-size: 20px;
 }
+
+/* Container's section */
 .container {
     height: auto;
-    padding: 2.5em 4em 2.5em 4em;
+    padding: 2.5em 3em 2.5em 1.5em;
+
 }
 
-/* i {
+i {
     font-size: 35px;
     opacity: 50%;
-} */
+} 
 
 .container p{
     height: 200px;
     width: 200px;
-    margin: 2em 0 3em;
+    margin: 1em 0 10em 0;
+
 }
 
 .sedan {
     background-color: orange;
+
     
 } 
 
 .suvs {
     background-color: rgb(0, 130, 139);
     
+    
 }
 
 .luxury {
     background-color: rgb(0, 49, 37);
     
+
+/* Button Section */
 }
 .button {
     background: white;
     text-align: center;
-    padding: 7px;
-    border-radius: 10px;
+    padding: 10px 25px;
+    border-radius: 25px;
     text-decoration: none;
+    font-size: 19px;
     font-weight: bold;
 }
 
 .buttonsedan {
     color:orange;
-    
-    
+
 }
 .buttonsuv {
     
@@ -62,24 +70,48 @@ body {
 .buttonluxury {
    
     color:rgb(0, 49, 37);
-   
 }
- 
-@media only screen and (max-width: 950px){
+
+/* Hover Section */
+
+.buttonsedan:hover {
+    color:white;
+    background-color: rgb(0, 130, 139);
+    transition: 300ms ease-in-out;
+
+}
+
+.buttonsuv:hover {
+    color:white;
+    background-color: rgb(0, 49, 37);
+    transition: 300ms ease-in-out;
+
+}
+
+.buttonluxury:hover {
+    color:white;
+    background-color: orange;
+    transition: 300ms ease-in-out;
+
+}
+/* Media Queries */
+@media only screen and (max-width: 900px) {
     body{
         display: unset;
-    }
-
-    .container {
-    margin-left: 20px;
-    margin-right: 20px;
 
     }
+    
+    .container{
+        margin:auto;
+        width: 300px;
+        height: 600px;
+        
+        
+    }
 
-} 
-
+}
 
     
-    
+
 
     
